@@ -7,7 +7,7 @@ export default [
     input: `${__dirname}/src/index.js`,
     output: {
       name: 'curji',
-      file: `${__dirname}/curji.js`,
+      file: `${__dirname}/umd/curji.js`,
       format: 'umd'
     },
     plugins: [
@@ -20,7 +20,7 @@ export default [
     input: `${__dirname}/src/index.js`,
     output: {
       name: 'curji',
-      file: `${__dirname}/curji.min.js`,
+      file: `${__dirname}/umd/curji.min.js`,
       format: 'umd'
     },
     plugins: [

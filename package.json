@@ -13,10 +13,10 @@
 		"build": "rollup -c rollup.config.js",
 		"test": "xo src/index.js"
 	},
-	"main": "curji.js",
+	"main": "umd/curji.js",
 	"files": [
-		"curji.js",
-		"curji.min.js"
+		"umd/curji.js",
+		"umd/curji.min.js"
 	],
 	"keywords": [
 		"emoji",
