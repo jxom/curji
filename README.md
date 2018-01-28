@@ -7,6 +7,11 @@
 > Public Announcement: It's possible to set an emoji as the browser cursor.
 - Sindre Sorhus via [Twitter](https://twitter.com/sindresorhus/status/955878567723847680)
 
+## Examples
+
+- Simple: https://jsfiddle.net/o67xwprx/
+- React: https://codesandbox.io/s/2zxy379rny 
+
 ## Usage
 
 #### Minimal
