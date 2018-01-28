@@ -45,11 +45,11 @@ curji('😀');
 
 ### curji(emoji, options)
 
-#### input
+#### emoji
 
 Type: `string`
 
-Lorem ipsum.
+The emoji you want your cursor to be.
 
 #### options
 
