@@ -8,7 +8,7 @@ const curji = (emoji, {selector} = {}) => {
 
   const cssText = `cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="20" height="18" style="font-size:14px"><text y="16">${emoji}</text></svg>'), auto;`;
   if (selector) {
-    document.querySelector(selector).style.cssText = cssText;
+    document.querySelector(selector).style.cssText += cssText;
     return null;
   }
   const headStyle = document.createElement('style');
