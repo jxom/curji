@@ -1,15 +1,43 @@
 {
-  "name": "curji",
-  "version": "0.0.0",
-  "description": "Turn your browser cursor into an emoji 🙊",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jxom/curji.git"
-  },
-  "author": "Jake Moxey",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/jxom/curji/issues"
-  },
-  "homepage": "https://github.com/jxom/curji#readme"
+	"name": "curji",
+	"version": "0.0.0",
+	"description": "Turn your website's cursor into an emoji 🙊",
+	"license": "MIT",
+	"repository": "jxom/curji",
+	"author": {
+		"name": "jxom",
+		"email": "jakemoxey@gmail.com",
+		"url": "jxom.io"
+	},
+	"scripts": {
+		"build": "rollup -c rollup.config.js",
+		"test": "xo src/index.js"
+	},
+	"main": "curji.js",
+	"files": [
+		"curji.js",
+		"curji.min.js"
+	],
+	"keywords": [
+		"emoji",
+		"cursor",
+		"curji"
+	],
+	"dependencies": {},
+	"devDependencies": {
+		"babel-cli": "6.26.0",
+		"babel-core": "6.26.0",
+		"babel-preset-env": "1.6.1",
+		"rollup": "^0.55.1",
+		"rollup-plugin-babel": "^3.0.3",
+		"rollup-plugin-uglify": "^3.0.0",
+		"uglify-es": "^3.3.9",
+		"xo": "^0.18.2"
+	},
+	"xo": {
+		"space": true,
+		"envs": [
+			"browser"
+		]
+	}
 }
