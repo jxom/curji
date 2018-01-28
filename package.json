@@ -1,0 +1,15 @@
+{
+  "name": "curji",
+  "version": "0.0.0",
+  "description": "Turn your browser cursor into an emoji 🙊",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jxom/curji.git"
+  },
+  "author": "Jake Moxey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jxom/curji/issues"
+  },
+  "homepage": "https://github.com/jxom/curji#readme"
+}
