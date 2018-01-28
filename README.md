@@ -9,7 +9,7 @@
 
 ## Examples
 
-- Simple: https://jsfiddle.net/o67xwprx/
+- Simple: https://jsfiddle.net/jxom/73egpjny/
 - React: https://codesandbox.io/s/2zxy379rny 
 
 ## Usage
