@@ -14,7 +14,7 @@
 ```html
 <html>
   <head>
-    <script src="https://unpkg.com/curji@1.0.0/curji.min.js"></script>
+    <script src="https://unpkg.com/curji@1.0.1/umd/curji.min.js"></script>
   </head>
   <body>
     Hello world
