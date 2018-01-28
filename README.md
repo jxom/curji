@@ -39,6 +39,9 @@ Usage:
 import curji from 'curji';
 
 curji('😀');
+
+// or with a selector
+curji('😀', { selector: '.container > #main' })
 ```
 
 ## API
